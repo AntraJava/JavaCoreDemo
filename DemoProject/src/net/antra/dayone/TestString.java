@@ -12,8 +12,8 @@ public class TestString {
 		System.out.println(str + " Training"+" Class" + 1 + 1);
 		System.out.println(str + " Training"+" Class" + (1 + 1));
 		
-//		String numericStr = "abc";
-		String numericStr = "1.6E3";
+		String numericStr = "abc";
+//		String numericStr = "1.6E3";
 		try{
 //			int aInt = Integer.parseInt(numericStr);
 //			System.out.println(aInt);

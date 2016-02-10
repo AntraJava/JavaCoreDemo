@@ -1,10 +1,9 @@
 package net.antra.dayfive;
 
-public class Hero implements Comparable<Hero>{
+public class Hero implements Comparable<Hero>, Cloneable{
 	private String name;
 	private String gender;
 	private int salary;
-	int j=0;
 	public Hero(String name, String gender, int salary) {
 		this.name = name;
 		this.gender = gender;
@@ -36,4 +35,5 @@ public class Hero implements Comparable<Hero>{
 	public int compareTo(Hero o) {
 		return this.name.compareToIgnoreCase(o.name);
 	}
+	
 }

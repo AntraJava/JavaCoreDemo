@@ -6,7 +6,7 @@ public class TestExceptionHandling2 {
 	public static void main(String[] args) {
 		TestExceptionHandling2 test = new TestExceptionHandling2();
 		try {
-			test.methodDemo(1);
+			test.methodDemo(2);
 		} catch (ArrayIndexOutOfBoundsException | NullPointerException | IOException e) {
 			e.printStackTrace();
 		}

@@ -15,7 +15,7 @@ public class TestExceptionHandling3 {
 				try {
 					checkInput(str);
 				} catch (InputInvalidException e) {
-					System.out.println("Input is invalid number");
+					System.out.println("Input is invalid number : " + e.getSomeVariable());
 					continue;
 				}
 				System.out.println("Input is : " + str);
@@ -27,10 +27,14 @@ public class TestExceptionHandling3 {
 		try{
 			double d = Double.parseDouble(str);
 			if(d < 10 || d > 100){
-				throw new InputInvalidException();
+				InputInvalidException e = new InputInvalidException();
+				e.setSomeVariable(""+d);
+				throw e;
 			}
 		}catch(Exception e){
-			throw new InputInvalidException();
+			InputInvalidException e1 = new InputInvalidException();
+			e1.setSomeVariable(str);
+			throw e1;
 		}
 	}
 }

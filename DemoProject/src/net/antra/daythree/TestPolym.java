@@ -10,6 +10,9 @@ public class TestPolym {
 		p.swimInside(aCreatureCanSwim);
 		p.swimInside(bCreatureCanSwim);
 		p.swimInside(humanCanSwim);
+		
+		Creature creatureTobeKilled = (Creature)aCreatureCanSwim;
+		CreatureKiller.kill(creatureTobeKilled);
 	}
 	
 	

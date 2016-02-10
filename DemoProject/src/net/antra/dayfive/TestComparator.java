@@ -7,6 +7,7 @@ import java.util.List;
 
 public class TestComparator {
 	public static void main(String[] args) {
+		
 		Hero superman = new Hero("kal-el","male",100000);
 		Hero batman = new Hero("Bruce Wayne","male",200000);
 		Hero ironman = new Hero("Tony Stark","male",99999999);
@@ -18,7 +19,7 @@ public class TestComparator {
 		heros.add(ironman);
 		System.out.println("Original :" + heros);
 		
-		//using comparable interface
+		//using comparable interface  
 		Collections.sort(heros);
 		System.out.println("After Sort:" + heros);
 		
