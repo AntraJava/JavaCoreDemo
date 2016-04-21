@@ -8,8 +8,9 @@ public class TestExceptionHandling {
 			test.methodDemo();
 			System.out.println("If there is exception, this line won't be shown");
 		} catch (Exception e) {
-			e.printStackTrace();
-			//System.out.println(e.getMessage());
+			//e.printStackTrace();
+			
+			System.out.println(e.getMessage());
 		}
 	}
 	

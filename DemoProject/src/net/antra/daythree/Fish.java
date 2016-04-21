@@ -6,5 +6,5 @@ public class Fish extends Creature implements CanSwim{
 	public void swim() {
 		System.out.println("Fish swim..");
 	}
-
+	
 }

@@ -9,7 +9,7 @@ public class TestScope {
 	//instance variable
 	private int instanceVar; //default to 0
 	
-	public void aMethod(int i){//i is parameter, available inside the method
+	public void aMethod(final int i){//i is parameter, available inside the method
 		int localVar;//local variable, no default value
 		if(i < 0){
 			String anotherLocalVar; //this one only valid inside the block{}

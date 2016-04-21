@@ -8,13 +8,13 @@ public class CreatureKiller {
 	}
 	
 	
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		String s = scanner.nextLine();
-		int i = Integer.parseInt(s);
-		
-		if(s == null){
-			System.out.println("123");
-		}
-	}
+//	public static void main(String[] args) {
+//		Scanner scanner = new Scanner(System.in);
+//		String s = scanner.nextLine();
+//		int i = Integer.parseInt(s);
+//		
+//		if(s == null){
+//			System.out.println("123");
+//		}
+//	}
 }

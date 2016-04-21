@@ -1,9 +1,9 @@
 package net.antra.dayone;
 
 public class TestConstants {
-	//final int i;
-	//static int j;
-	//final static int PI;
+//	final int i;
+//	static int j;
+//	final static int PI;
 	public static void main(String[] args) {
 		TestConstants tc = new TestConstants();
 		//tc.i = 2;
@@ -20,7 +20,7 @@ public class TestConstants {
 		System.out.println(k);
 		int l = (int)(k/j);
 		System.out.println(l);
-		//System.out.println(1/0f);
+		System.out.println(1/0f);
 		//System.out.println(0/0f);
 		//System.out.println(0/0);
 	}
