@@ -6,7 +6,7 @@ public class TestString {
 		ts.stringDemo();
 	}
 	public void stringDemo(){
-		String str = "JavaEE";
+		String str = new String("JavaEE");
 		String str2 = "JavaEE";
 		System.out.println(str == str2);
 		System.out.println(str.equals(str2));
